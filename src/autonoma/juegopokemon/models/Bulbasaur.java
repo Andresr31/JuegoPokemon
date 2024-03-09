@@ -9,5 +9,8 @@ package autonoma.juegopokemon.models;
  * @author Educacion
  */
 public class Bulbasaur extends Pokemon{
-    
+    @Override
+    public String atacarPlacar() {
+       return "Bulbasaur ha lanzado un atacarPlacar";
+    }
 }

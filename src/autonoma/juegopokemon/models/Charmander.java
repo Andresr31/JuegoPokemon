@@ -9,5 +9,10 @@ package autonoma.juegopokemon.models;
  * @author Educacion
  */
 public class Charmander extends Pokemon {
+
+    @Override
+    public String atacarPlacar() {
+       return "Charmader ha lanzado un atacarPlacar";
+    }
     
 }

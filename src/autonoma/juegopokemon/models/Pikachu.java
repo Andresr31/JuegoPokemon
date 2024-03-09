@@ -10,4 +10,18 @@ package autonoma.juegopokemon.models;
  */
 public class Pikachu extends Pokemon implements PokemonElectrico{
     
+    public String atacarColazo() {
+       return "Pikachu ha lanzado un atacarColazo";
+    }
+    
+    @Override
+    public String atacarPlacar() {
+       return "Pikachu ha lanzado un atacarPlacar";
+    }
+
+    @Override
+    public String atacarRayo() {
+       return "Pikachu ha lanzado un atacarRayo";
+    }
+    
 }

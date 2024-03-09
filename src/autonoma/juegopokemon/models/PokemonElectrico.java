@@ -10,4 +10,8 @@ package autonoma.juegopokemon.models;
  */
 public interface PokemonElectrico {
     
+    public final int VIDA_TOTAL = 100;
+    
+    public abstract String  atacarRayo();
+    
 }

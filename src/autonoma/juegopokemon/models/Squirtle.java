@@ -10,4 +10,9 @@ package autonoma.juegopokemon.models;
  */
 public class Squirtle extends Pokemon {
     
+    @Override
+    public String atacarPlacar() {
+       return "Squirtle ha lanzado un atacarPlacar";
+    }
+    
 }
